@@ -1,0 +1,25 @@
+models:
+  Models\video:
+    name: string:400
+    lang: string:400
+    link: string:400
+    embed: string:400
+    type: string:400
+    description: longtext
+    published_at: nullable timestamp
+  Models\video:
+    name: string:400
+    lang: string:400
+    link: string:400
+    year: string:400
+    image: string:400
+    description: longtext
+    published_at: nullable timestamp
+  Model\video:
+    name: string:400
+    lang: string:400
+    link: string:400
+    embed: string:400
+    type: string:400
+    description: longtext
+    published_at: nullable timestamp
